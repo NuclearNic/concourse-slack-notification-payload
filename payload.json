@@ -1,10 +1,5 @@
-
-
-
-           body: {
-             "text": "Inline static text\n",
-             "username": "concourse",
-             "icon_url": null,
-             "icon_emoji": null,
-             "channel": null
-           }
+"text": "Inline static text\n",
+"username": "concourse",
+"icon_url": null,
+"icon_emoji": null,
+"channel": null
