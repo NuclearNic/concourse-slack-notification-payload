@@ -1,5 +1,5 @@
 
-{ title: "Delpoying",
+json="{ title: "Delpoying",
   text: ":slack: Deploy Staging",
   attachments:
     [{  text: "",
@@ -11,4 +11,4 @@
           name: "deploy_staging",
           text: "Deploy to Staging",
           type: "button",
-           value: "jumo/auth-api:a9ff90d"}]}]}
+           value: "jumo/auth-api:a9ff90d"}]}]}""
