@@ -1,5 +1,14 @@
-"text": "Inline static text\n",
-"username": "concourse",
-"icon_url": null,
-"icon_emoji": null,
-"channel": null
+
+{ title: "Delpoying",
+  text: ":slack: Deploy Staging",
+  attachments:
+    [{  text: "",
+        fallback: "Deployment failed",
+        callback_id: "deploy",
+        color: "#3AA3E3",
+        attachment_type: "default",
+        actions:[{
+          name: "deploy_staging",
+          text: "Deploy to Staging",
+          type: "button",
+           value: "jumo/auth-api:a9ff90d"}]}]}
