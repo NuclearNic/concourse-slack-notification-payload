@@ -1,5 +1,5 @@
 
-payload={ title: "Delpoying",
+"payload={ title: "Delpoying",
   text: ":slack: Deploy Staging",
   attachments:
     [{  text: "",
@@ -11,4 +11,4 @@ payload={ title: "Delpoying",
           name: "deploy_staging",
           text: "Deploy to Staging",
           type: "button",
-           value: "jumo/auth-api:a9ff90d"}]}]}
+           value: "jumo/auth-api:a9ff90d"}]}]}"
