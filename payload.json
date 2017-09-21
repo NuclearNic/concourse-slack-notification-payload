@@ -1,20 +1,17 @@
-
-  "title": "Delpoying",
-  "text": ":slack:Deploy Staging",
-  "attachments": [
-    {
-      "text":"",
-      "fallback":"Deployment failed",
-      "callback_id":"deploy",
-      "color":"#3AA3E3",
-      "attachment_type":"default",
-      "actions": [
-        {
-          "name":"deploy_staging",
-          "text":"Deploy to Staging",
-          "type":"button",
-          "value":"jumo/auth-api:a9ff90d"
-        }
-      ]
-    }
-  ]
+{
+   "params": {
+     "username": "concourse",
+     "always_notify": "true",
+     "debug": "true",
+     "attachments_file": "attachment-sample.txt",
+     "attachments": [
+       {
+         "color": "danger",
+         "text": "Build $BUILD_NAME failed!"
+       }
+     ]
+   },
+   "source": {
+     "url": "https://some.url"
+   }
+ }
