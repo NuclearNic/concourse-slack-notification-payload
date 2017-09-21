@@ -1,17 +1,6 @@
-{
-   "params": {
-     "username": "concourse",
-     "always_notify": "true",
-     "debug": "true",
-     "attachments_file": "attachment-sample.txt",
-     "attachments": [
-       {
-         "color": "danger",
-         "text": "Build $BUILD_NAME failed!"
-       }
-     ]
-   },
-   "source": {
-     "url": "https://some.url"
+[
+   {
+     "color": "success",
+     "text": "Build $BUILD_NAME passed!"
    }
- }
+ ]
